@@ -1,0 +1,4 @@
+session_id,station_id,start_time,end_time,energy_delivered_kwh,connector_type,user_id,status,error_code,cost,location_id
+session_001,station_ny_123,2023-11-21 08:30:00,2023-11-21 09:15:00,25.5,CCS,user_456,completed,,2.55,ny_warehouse
+session_002,station_ny_123,2023-11-21 10:00:00,2023-11-21 10:05:00,0.5,CCS,user_789,fault,connector_error,0.05,ny_warehouse
+session_003,station_ca_456,2023-11-21 11:30:00,2023-11-21 13:45:00,60.0,NACS,user_123,completed,,6.00,ca_store
