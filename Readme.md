@@ -1,4 +1,4 @@
-# Serverless EV Charging Analytics ETL Pipeline
+# Serverless EV Charging Infra Analytics ETL Pipeline
 
 A fully automated, serverless ETL pipeline for processing electric vehicle charging session data on AWS.
 
