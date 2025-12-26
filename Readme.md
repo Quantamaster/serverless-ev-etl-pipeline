@@ -14,6 +14,7 @@ The pipeline consists of the following components:
 4. **S3 Processed Zone**: Transformed, partitioned data stored in `ev-data-processed-data-curated`
 5. **AWS Athena**: Used to query the processed data with SQL
 
+![Design Flowchart](docs/Design Flowchart.png)
 ## Services Used
 
 - Amazon S3
@@ -68,3 +69,7 @@ SELECT station_id,
 FROM processed_sessions
 GROUP BY station_id
 ORDER BY total_energy_kwh DESC;
+
+![Workflow](docs/electric-vehicle-charging-station-management.png)
+
+![Dashboard](docs/Dashboard.png)
