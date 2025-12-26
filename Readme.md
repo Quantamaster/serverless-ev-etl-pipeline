@@ -4,7 +4,7 @@ A fully automated, serverless ETL pipeline for processing electric vehicle charg
 
 ## Architecture
 
-![Architecture Diagram](docs/architecture.png)
+![Architecture Diagram](https://github.com/Quantamaster/serverless-ev-etl-pipeline/blob/main/Architecture.png)
 
 The pipeline consists of the following components:
 
@@ -13,8 +13,8 @@ The pipeline consists of the following components:
 3. **AWS Glue**: Performs ETL transformations and converts data to Parquet format
 4. **S3 Processed Zone**: Transformed, partitioned data stored in `ev-data-processed-data-curated`
 5. **AWS Athena**: Used to query the processed data with SQL
-
-![Design Flowchart](docs/Design Flowchart.png)
+### System Design
+![Design Flowchart](https://github.com/Quantamaster/serverless-ev-etl-pipeline/blob/main/Design%20Flowchart.png)
 ## Services Used
 
 - Amazon S3
@@ -24,7 +24,7 @@ The pipeline consists of the following components:
 - Amazon Athena
 
 ## Setup and Deployment
-
+![Block Diagram](https://github.com/Quantamaster/serverless-ev-etl-pipeline/blob/main/Flowchart.png)
 ### Prerequisites
 
 - AWS account with appropriate permissions
@@ -69,7 +69,7 @@ SELECT station_id,
 FROM processed_sessions
 GROUP BY station_id
 ORDER BY total_energy_kwh DESC;
-
-![Workflow](docs/electric-vehicle-charging-station-management.png)
-
-![Dashboard](docs/Dashboard.png)
+### WorkFlow
+![Workflow](https://github.com/Quantamaster/serverless-ev-etl-pipeline/blob/main/electric-vehicle-charging-station-management.png)
+### Dashboard
+![Dashboard](https://github.com/Quantamaster/serverless-ev-etl-pipeline/blob/main/Dashboard.png)
