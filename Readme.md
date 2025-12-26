@@ -4,7 +4,7 @@ A fully automated, serverless ETL pipeline for processing electric vehicle charg
 
 ## Architecture
 
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](docs/architecture.png)
 
 The pipeline consists of the following components:
 
