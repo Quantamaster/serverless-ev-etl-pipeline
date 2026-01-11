@@ -1,18 +1,34 @@
 
 # ⚡ Serverless EV Charging Infrastructure Analytics – ETL Pipeline
-
-A **fully automated, serverless ETL pipeline on AWS** for ingesting, transforming, and analyzing **electric vehicle (EV) charging session data**.  
-Designed to demonstrate **modern cloud-native data engineering** using event-driven architecture and managed AWS services.
-
----
-
-## 🔖 Tech Stack Badges
 ![AWS](https://img.shields.io/badge/AWS-Serverless-orange)
 ![S3](https://img.shields.io/badge/Amazon-S3-blue)
 ![Lambda](https://img.shields.io/badge/AWS-Lambda-yellow)
 ![Glue](https://img.shields.io/badge/AWS-Glue-green)
 ![Athena](https://img.shields.io/badge/Amazon-Athena-purple)
 ![Terraform](https://img.shields.io/badge/IaC-Terraform-623CE4)
+
+A **fully automated, serverless ETL pipeline on AWS** for ingesting, transforming, and analyzing **electric vehicle (EV) charging session data**.  
+Designed to demonstrate **modern cloud-native data engineering** using event-driven architecture and managed AWS services.
+
+---
+## 📚 Table of Contents
+
+- [Overview](#-overview)
+- [Tech Stack](#-tech-stack-badges)
+- [Architecture](#-high-level-architecture)
+- [System Design](#-system-design-flow)
+- [ETL Pipeline Flow](#-etl-pipeline-flow)
+- [AWS Services Used](#-aws-services-used)
+- [Data Zones](#-data-zones)
+- [Prerequisites](#-prerequisites)
+- [Setup & Deployment](#-setup--deployment)
+- [How the Pipeline Works](#-how-the-pipeline-works)
+- [Querying with Amazon Athena](#-querying-with-amazon-athena)
+- [Workflow Visualization](#-workflow-visualization)
+- [Analytics Dashboard](#-analytics-dashboard)
+- [Use Cases](#-use-cases)
+- [Key Learnings](#-key-learnings-demonstrated)
+- [Future Enhancements](#-future-enhancements)
 
 ---
 
