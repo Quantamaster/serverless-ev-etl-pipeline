@@ -213,9 +213,4 @@ ORDER BY total_energy_kwh DESC;
 
 ⭐ If this project helped your learning or portfolio, consider starring the repository!
 
-```
-Just say 👍
----
 
-
-```
